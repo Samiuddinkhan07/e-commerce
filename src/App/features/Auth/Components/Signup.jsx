@@ -5,7 +5,7 @@ import { increment,incrementAsync,selectedCount } from "./AuthSlice";
 
 export default function SignUp(){
  const count  = useSelector(selectedCount);
- const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
  return(
     <>
